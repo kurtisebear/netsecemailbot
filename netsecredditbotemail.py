@@ -6,6 +6,7 @@ import re
 import hashlib
 import csv
 import smtplib
+import sys
 
 
 def csvcheck(l):
@@ -77,4 +78,8 @@ r = praw.Reddit(user_agent='HOT Netsec Topics Emailler v1')
 sub = 'netsec'
 subreddit = r.get_subreddit(sub)
 subtophot()
-sendusinggmail()
+
+if len(links2email) == 0:
+    sys.exit()
+else:
+    sendusinggmail()
