@@ -73,7 +73,7 @@ GMAILPASS = ""
 SENDTOEMAIL = ""
 
 links2email = []
-r = praw.Reddit(user_agent='cmd_poster_v1')
+r = praw.Reddit(user_agent='HOT Netsec Topics Emailler v1')
 sub = 'netsec'
 subreddit = r.get_subreddit(sub)
 subtophot()
