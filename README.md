@@ -1,6 +1,7 @@
 Gets hot posts from /r/netsec and emails the links and titles to a specified email address
 
 Uses a csv to keep track of what links have been sent before to avoid duplicates,so you need a file called list.csv
+
 requires praw reddit libary installed
 
     sudo pip install praw
