@@ -7,7 +7,8 @@ import hashlib
 import csv
 import smtplib
 import sys
-
+import config
+import os
 
 def csvcheck(l):
     md5list = []
@@ -69,9 +70,10 @@ def sendusinggmail():
     session.sendmail(GMAILUSER, SENDTOEMAIL, content)
 
 #Email Vars
-GMAILUSER = ""
-GMAILPASS = ""
-SENDTOEMAIL = ""
+GMAILUSER = os.environ['GMAIL_USERNAME']
+GMAILPASS = os.environ['GMAIL_PASSWORD']
+SENDTOEMAIL = os.environ['EMAIL']
+
 
 links2email = []
 r = praw.Reddit(user_agent='HOT Netsec Topics Emailler v1')
