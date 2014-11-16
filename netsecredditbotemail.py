@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import praw
@@ -43,7 +44,6 @@ def subtophot():
         else:
             md5url = md5encode(submission.url)
             l = (md5url, submission.url.encode('utf-8'), submission.title.encode('utf-8'))
-
             csvcheck(l)
 
 

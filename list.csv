@@ -1,0 +1,19 @@
+10374f5743bc6c1dbd5540e7c51766f3,http://www.cs.bu.edu/~goldbe/papers/RPKImanip.html,Hardening the RPKI Against Faulty or Misbehaving Authorities
+cd6096ad59e0710f7062625f419b0f0a,http://www.fredericb.info/2014/11/exploitation-of-philips-smart-tv.html,Exploitation of Philips Smart TV
+238afe2681ddca4e24e3476dae1e74ba,https://www.trustedsec.com/november-2014/meterssh-meterpreter-ssh/,MeterSSH – Meterpreter over SSH
+a781361fe588c26b132cc7501694fb74,http://blog.cr4.sh/2014/11/simple-guest-to-host-vm-escape-for.html,Simple guest to host VM escape for Parallels Desktop
+172ecd890b59234a43f7093cb72b3abd,http://securityintelligence.com/ibm-x-force-researcher-finds-significant-vulnerability-in-microsoft-windows/#.VGS3NWfqXt0,IBM X-Force Researcher Finds Significant Vulnerability in Microsoft Windows
+0f2f1b9b74444d01e7e4ea6618a01e7b,https://github.com/johnculkin/LinuxChiro,I wrote a STIG auditing and implementation tool in bash - check out LinuxChiro - Posture checking and correcting for Linux
+ba5688b0ff32c435a4932f33c23bcb9a,http://blogs.mcafee.com/mcafee-labs/bypassing-microsofts-patch-for-the-sandworm-zero-day-even-editing-can-cause-harm,Bypassing Microsoft’s Patch for the Sandworm Zero Day: Even 'Editing' Can Cause Harm - McAfee
+045489721a9574675888848e3ad06613,https://www.youtube.com/watch?v=mQjTgDuLsp4,Hunting for Top Bounties
+6b99a693440cd7206b06a96c8354879f,http://blog.trendmicro.com/trendlabs-security-intelligence/a-killer-combo-critical-vulnerability-and-godmode-exploitation-on-cve-2014-6332/,A Killer Combo: Critical Vulnerability and 'Godmode' Exploitation on CVE-2014-6332
+e13025edccda706657a7c49d787605e3,http://blog.lse.epita.fr/articles/74-getting-back-determinism-in-the-lfh.html,Getting back determinism in the Low Fragmentation Heap
+60c970ea60a93971a76148dc885aae0f,https://github.com/mrrrgn/simple-rootkit,"A simple, highly commented, rootkit which pwns Python and gcc."
+7a7196a9d00b8104ba24079786b0d636,http://galois.com/wp-content/uploads/2014/11/technical-hack-a-pdf.pdf,Modifying an Off-the-Shelf Wireless Router for PDF Ballot Tampering
+4f7ac844f5a0cd924424cc75bbcd5717,http://wiki.osdev.org/Stack_Smashing_Protector,Implementing your own Stack Smashing Protector
+62abe55dcc1001cf3f55a13501ceca28,http://rabexc.org/posts/pitfalls-of-ssh-agents,The perils of using an ssh-agent
+65f34250e6f6e1a7c1d60aa3e63be0de,https://technet.microsoft.com/en-us/library/security/ms14-066.aspx,Microsoft Security Bulletin MS14-066
+85a216f119f491b3a9fd99e29c6cf73c,http://seclists.org/oss-sec/2014/q4/592,oss-sec: CVE-request: systemd-resolved DNS cache poisoning
+64d08fc683cfe9dc7f1cdd8ccc9799e3,http://blog.quarkslab.com/abusing-samsung-knox-to-remotely-install-a-malicious-application-story-of-a-half-patched-vulnerability.html,Abusing Samsung KNOX to remotely install a malicious application: story of a half patched vulnerability
+10583cfe2f31223f53446bb113afb39f,https://wireedit.com/,WireEdit | A Full Stack WYSIWYG Editor for Network Packets
+46f1cc3766b40acc31bc9959b65bdd78,http://www.procdot.com/index.htm,A new way of visual malware analysis
