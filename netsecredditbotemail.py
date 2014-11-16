@@ -65,7 +65,6 @@ def sendusinggmail():
         linksend += '<br>'
         linksend += unicode(str(a)).strip('"\'')
         linksend += '<br>'
-    print linksend
     content = headers + "\r\n\r\n" + linksend
     session.sendmail(GMAILUSER, SENDTOEMAIL, content)
 
