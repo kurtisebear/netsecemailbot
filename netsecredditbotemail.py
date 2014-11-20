@@ -26,7 +26,7 @@ def csvwrite(l):
     with open('list.csv', 'a') as f:
         writer = csv.writer(f)
         writer.writerow(l)
-        urltitle = [l[1], l[2]]
+        urltitle = [l[1], l[2], l[3]]
         links2email.append(urltitle)
 
 
@@ -45,7 +45,7 @@ def subtophot():
             pass
         else:
             md5url = md5encode(submission.url)
-            l = (md5url, submission.url.encode('utf-8'), submission.title.encode('utf-8'))
+            l = (md5url, submission.url.encode('utf-8'), submission.title.encode('utf-8'), submission.permalink.encode('utf-8'))
             csvcheck(l)
 
 
@@ -63,7 +63,11 @@ def sendusinggmail():
 
     for a in links2email:
         linksend += '<br>'
-        linksend += unicode(str(a)).strip('"\'')
+        linksend += a[1]
+        linksend += '<br>'
+        linksend += a[0]
+        linksend += '<br>'
+        linksend += a[2]
         linksend += '<br>'
     content = headers + "\r\n\r\n" + linksend
     session.sendmail(GMAILUSER, SENDTOEMAIL, content)
